@@ -1,0 +1,262 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(background.jpg);
+	color: #FFFFFF;
+}
+#contenedor {
+	width:550px;
+	margin: 20px auto;
+	padding: 5px;
+}
+#nombre p#flor {
+	font-size: 150%;
+}
+#nombre {
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#datos {
+	font-size: 80%;
+	float: right;
+	text-align: right;
+	margin: 10px 0px;
+	padding: 5px;
+	padding-top: 0px;
+}
+#datos span:hover {
+	text-decoration: underline;
+}
+#ingresar {
+	clear: both;
+	text-align: center;
+	width: 250px;
+	margin: 0px auto;
+}
+#ingresar a {
+	text-decoration: none;
+	color: #5F315F;
+}
+#ingresar a:hover {
+	color: #FFFFFF;
+}
+#desc {
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+	color: #474752;
+}
+#desc p {
+	text-align: justify;
+	font-size: 90%;
+	line-height: 1.5em;
+	margin-bottom: 13px;
+	display: none;
+}
+#divisiones {
+	float: right;
+	text-align: justify;
+	margin: 10px;
+	margin-left: 50px;
+}
+#divisiones p {
+	line-height: 1.5em;
+	font-size: 90%;
+}
+#divisiones p.titulo {
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#imagenes {
+	float: left;
+	padding-left: 40px;
+}
+#cont {
+	border-right: 3px solid #8585AD;
+	border-bottom: 10px solid #8585AD;
+	position: absolute;
+	width: 921px; left: 50%; margin-left: -462px;
+	height: 386px; top: 50%; margin-top: -198px;
+			/* sumar los paddings! */
+}
+#cont a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #474752;
+}
+#cont a:hover {
+	color: white;
+}
+#cont1 {
+	border-left: 5px solid #8585AD;	
+	position: absolute;
+	width: 921px; left: 50%; margin-left: -463px;
+	height: 295px; top: 50%; margin-top: -163px;
+			/* sumar los paddings! */
+}
+#cont2 {
+	margin: 0px auto;
+	width: 850px;
+	height: 300px;
+}
+#imagenfondo {
+	background-image: url('puerto_madero.jpg');
+	background-position: center center;
+	background-repeat: repeat;
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 260px; top: 50%; margin-top: -139px; /* +18 del ingresar */
+			/* sumar los paddings! */
+}
+#desc2 {
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+	color: #474752;
+}
+#desc2 p {
+	line-height: 1.5em;
+	font-size: 90%;
+	margin-bottom: 15px;
+}
+#desc2 p.titulo {
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.volver {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+.volver a {
+	color: #474752;
+	text-decoration: none;
+}
+.volver a:hover {
+	text-decoration: underline;
+}
+#firma {
+	font-size: 90%;
+	clear: both;
+	text-align: right;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 7px;
+	margin-right: 50px;
+	background: #8585AD;
+	color: #474752;
+	border-left: 5px solid #8585AD;
+}
+.contactLink:hover, .soliciteLink:hover {
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+	    #contactFormContainer, #soliciteFormContainer
+             {
+			background-color: #666699;
+			position: absolute;
+			width: 600px; left: 50%; margin-left: -300px;
+			overflow: hidden;
+			bottom: 0px;
+		}
+	    #soliciteFormContainer
+             {
+			background-color: #AA8;
+			overflow: hidden;
+		}
+		#contactForm
+             {
+			height: 200px;
+			display: none;
+			font-size: 80%;
+			overflow: hidden;
+		}
+		#soliciteForm
+		{
+			height: 245px;
+			width: 600px;
+			overflow: hidden;
+			display: none;
+			font-size: 80%;
+		}
+ 
+	    #contactForm fieldset, #soliciteForm fieldset
+             {
+			width: 560px;
+			float: left;
+			padding: 5px 20px;
+			border: none;
+		}      
+            #contactForm label, #soliciteForm label
+			{
+               /*color: #ffc400;*/
+				color: #FECD28;
+            }      
+			#contactForm input[type=text], #soliciteForm input[type=text]
+			{
+				border: solid 1px #4d3a24;
+				padding: 2px;
+				width: 100%;
+				margin-bottom: 2px;
+				/*height: 24px;*/
+            }  
+            #contactForm textarea, #soliciteForm textarea
+			{
+				border: solid 1px #4d3a24;
+				width: 100%;
+				height: 50px;
+				margin-bottom: 10px;
+            }  
+            #contactForm input[type=submit], #soliciteForm input[type=submit]
+			{
+				background-color: #847B82;
+				border: solid 1px #23150C;
+				color: #FECD28;
+				padding: 4px 8px;
+				float: right;
+            }
+            #messageSent
+			{
+				position: absolute;
+				height: 70px; top: 50%; margin-top: -40px;
+				width: 300px; left: 50%; margin-left: -155px;
+				background-color: #847B82;
+				border: 5px outset darkgray;
+				color: #FECD28;
+				font-size: 20px;
+				display: none;
+			}
+		#navigation ul li{
+			float: left;
+			padding-left: 20px;
+		}
+		#navigation a{
+			text-decoration: none;
+			color: black;
+		}
+			#navigation a:hover{
+				color: white;
+			}
