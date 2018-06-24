@@ -19,9 +19,19 @@ theme = "aerial"
   link = "https://www.facebook.com/fdesplats.com.ar/"
 
 [[params.social]]
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://instagram.com/flor_desplats"
+
+[[params.social]]
+  medium = "Google"
+  icon = "google"
+  link = "https://plus.google.com/+FlorenciaDesplats"
+
+[[params.social]]
   medium = "Linkedin"
   icon = "linkedin"
-  link = "http://ar.linkedin.com/in/florenciadesplats"
+  link = "https://www.linkedin.com/in/florenciadesplats/"
 
 [[params.social]]
   medium = "Email"
