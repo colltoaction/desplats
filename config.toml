@@ -16,7 +16,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Facebook"
   icon = "facebook"
-  link = "https://www.facebook.com/fdesplats.com.ar/"
+  link = "https://www.facebook.com/florenciadesplats"
 
 [[params.social]]
   medium = "Instagram"
