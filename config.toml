@@ -24,14 +24,9 @@ theme = "aerial"
   link = "https://instagram.com/flor_desplats"
 
 [[params.social]]
-  medium = "Google"
-  icon = "google"
-  link = "https://plus.google.com/+FlorenciaDesplats"
-
-[[params.social]]
   medium = "Linkedin"
   icon = "linkedin"
-  link = "https://www.linkedin.com/in/florenciadesplats/"
+  link = "https://www.linkedin.com/in/flordesplats/"
 
 [[params.social]]
   medium = "Email"
